@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <script src="Scripts/modernizr-2.8.3.js"></script>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+        <div id="PageWrapper">
+            <header><a href="/"></a></header>
+            <nav>
+                <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" DynamicEnableDefaultPopOutImage="False" StaticEnableDefaultPopOutImage="False"></asp:Menu>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server" CssClass="NavFloatR"></asp:SiteMapPath>
+            </nav>
+            <section id="MainContent">
+                <asp:ContentPlaceHolder ID="MC" runat="server">
+                    <!--will be cpMC in pages inheriting from this-->
+                </asp:ContentPlaceHolder>
+                <aside id="SideBar">
+                    <asp:DropDownList ID="StyleSelect" runat="server" OnSelectedIndexChanged="StyleSelect_SelectedIndexChanged" AutoPostBack="true">
+         <asp:ListItem Value="Select Your Theme"></asp:ListItem>
+         <asp:ListItem Value="Bay"></asp:ListItem>
+         <asp:ListItem Value="Lavender"></asp:ListItem>
+     </asp:DropDownList>
+                    
+                    
+                </aside>
+               
+            </section>
+            
+            <footer>Footer Goes Here</footer>
+        </div>
+    </form>
+</body>
+</html>

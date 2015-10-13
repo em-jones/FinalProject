@@ -1,0 +1,119 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+a{font-style: normal;
+ 
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*#Region MasterCss*/
+body{
+    display: block;
+}
+    body header {
+        padding: 2% 0;
+    }
+    body p{
+        padding: 1% 2%;
+    }
+#PageWrapper{
+    background-color: #9EE2E2;
+}
+#PageWrapper header{
+      background-image: url(http://localhost:21953/App_Themes/Bay/Images/logo1.png);
+      background-size:;
+      background-repeat: no-repeat;
+      background-color: #5c9292;
+      height: 90px;
+}
+#MainContent{
+    background-color: #226666;
+    width: 100%;
+    float: left;
+    padding-right: 1%;
+}
+#MC_LoginPanel{
+    width: 50%;
+    float: left;
+}
+#SideBar{
+    width: 39%;
+    background-color: #5c9292;
+    float: right;
+}
+header, footer{
+    background-color:#023A3A;
+    color: #9EE2E2;
+    width: 100%;
+    clear: left;
+}
+/*#region skins*/
+.BayButton{
+    color: #FFFFFF;
+    background-color: #9EE2E2;
+    border-radius: 3px;
+    font-family: Verdana;
+}
+.BayButton:hover{
+  
+    background-color: #226666;
+
+}
+.NavFloatR{
+    float: right;
+}
+.LoginLabel{
+    padding-left: 2em;
+}
+/*#endregion*/
+/*#region COLORS*/
+    /*Light: #9ee2e2
+    Light-Medium: #5c9292
+    Medium: #226666
+    Darker: #023A3A
+    Black: #000F0F*/
+/*#endRegion*/

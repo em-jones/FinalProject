@@ -1,0 +1,127 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+a{font-style: normal;
+ 
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*#Region MasterCss*/
+body{
+    display: block;
+    background-color: #491074;
+}
+    body header {
+        padding: 2% 0;
+    }
+    body p{
+        padding: 1% 2%;
+    }
+#PageWrapper{
+    background-color: #8C59B3;
+}
+#PageWrapper header{
+      background-image: url(http://localhost:21953/App_Themes/Lavender/Images/logo1lav.png);
+      background-size:;
+      background-repeat: no-repeat;
+      background-color: #35055A;
+      height: 100px;
+}
+nav{
+    height:29px;
+}
+#MainContent{
+    background-color: #491074;
+    width: 100%;
+    float: left;
+    padding-right: 1%;
+    display: inline-block;
+}
+#MC_LoginPanel{
+    width: 70%;
+}
+#SideBar{
+    width: 30%;
+    background-color: #71389D;
+    float: right;
+    display:inline-block;
+
+}
+
+footer{
+    background-color:#35055A;
+    color: #8C59B3;
+    float: left;
+    width: 100%;
+}
+/*#region skins*/
+.LavButton{
+    color: #FFFFFF;
+    background-color: #71389D;
+    border-radius: 3px;
+    font-family: Verdana;
+}
+.LavButton:hover{
+    color: #FFFFFF;
+    background-color: #8C59B3;
+
+}
+.NavFloatR{
+    float: right;
+}
+.LoginLabel{
+    padding-left: 2em;
+}
+/*#endregion*/
+/*#region Colors
+COLORS:
+    Light: #8C59B3
+    Light-Medium: #71389D
+    Medium: #5F1C93
+    Darker: #491074
+    Black: #35055A*/
+/*#endRegion*/
